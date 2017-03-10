@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0876D18A251453CBBA940682 /* libPods-Lacamomille.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 20113C8F5F80D28DAC879E15 /* libPods-Lacamomille.a */; };
 		5C0AF5C31E693C2600111035 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0AF5C21E693C2600111035 /* AppDelegate.swift */; };
 		5C0AF5C51E693C2600111035 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0AF5C41E693C2600111035 /* ViewController.swift */; };
 		5C0AF5C81E693C2600111035 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C0AF5C61E693C2600111035 /* Main.storyboard */; };
@@ -31,9 +32,12 @@
 		5C0AF60D1E693F9F00111035 /* aViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0AF60C1E693F9F00111035 /* aViewController.swift */; };
 		5C0AF60F1E693FAB00111035 /* bViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0AF60E1E693FAB00111035 /* bViewController.swift */; };
 		5C0AF6111E693FC500111035 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0AF6101E693FC500111035 /* DataModel.swift */; };
+		5CA726E81E7291920072D6CC /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA726E61E7291920072D6CC /* SwiftyJSON.swift */; };
+		5CA726E91E7291920072D6CC /* SZHttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA726E71E7291920072D6CC /* SZHttpRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		20113C8F5F80D28DAC879E15 /* libPods-Lacamomille.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Lacamomille.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C0AF5BF1E693C2600111035 /* Lacamomille.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lacamomille.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C0AF5C21E693C2600111035 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C0AF5C41E693C2600111035 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +81,11 @@
 		5C0AF60C1E693F9F00111035 /* aViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = aViewController.swift; sourceTree = "<group>"; };
 		5C0AF60E1E693FAB00111035 /* bViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bViewController.swift; sourceTree = "<group>"; };
 		5C0AF6101E693FC500111035 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		5CA726E51E728CA20072D6CC /* LaHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LaHeader.h; sourceTree = "<group>"; };
+		5CA726E61E7291920072D6CC /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		5CA726E71E7291920072D6CC /* SZHttpRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SZHttpRequest.swift; sourceTree = "<group>"; };
+		8F75E287BE806E127141DF0E /* Pods-Lacamomille.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lacamomille.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lacamomille/Pods-Lacamomille.release.xcconfig"; sourceTree = "<group>"; };
+		DD2B9E2AE1064613A476B870 /* Pods-Lacamomille.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lacamomille.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lacamomille/Pods-Lacamomille.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,12 +93,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0876D18A251453CBBA940682 /* libPods-Lacamomille.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		223142F1404352D396CE4689 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD2B9E2AE1064613A476B870 /* Pods-Lacamomille.debug.xcconfig */,
+				8F75E287BE806E127141DF0E /* Pods-Lacamomille.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4120AB82250AD91C7DC74E50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20113C8F5F80D28DAC879E15 /* libPods-Lacamomille.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5C0AF5B61E693C2600111035 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +126,8 @@
 				5C0AF5D41E693C4C00111035 /* Model */,
 				5C0AF5C11E693C2600111035 /* Lacamomille */,
 				5C0AF5C01E693C2600111035 /* Products */,
+				223142F1404352D396CE4689 /* Pods */,
+				4120AB82250AD91C7DC74E50 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -142,7 +171,10 @@
 		5C0AF5D81E693F4500111035 /* Third */ = {
 			isa = PBXGroup;
 			children = (
+				5CA726E61E7291920072D6CC /* SwiftyJSON.swift */,
+				5CA726E71E7291920072D6CC /* SZHttpRequest.swift */,
 				5C0AF5DA1E693F8E00111035 /* SDWebImage */,
+				5CA726E51E728CA20072D6CC /* LaHeader.h */,
 			);
 			path = Third;
 			sourceTree = "<group>";
@@ -202,9 +234,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5C0AF5D11E693C2600111035 /* Build configuration list for PBXNativeTarget "Lacamomille" */;
 			buildPhases = (
+				05FB51502B651BEBA2F2246A /* [CP] Check Pods Manifest.lock */,
 				5C0AF5BB1E693C2600111035 /* Sources */,
 				5C0AF5BC1E693C2600111035 /* Frameworks */,
 				5C0AF5BD1E693C2600111035 /* Resources */,
+				4075D1198ED0ECEB52B24816 /* [CP] Embed Pods Frameworks */,
+				E4AE83C56A9A66DBCAF4D0C5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -227,6 +262,7 @@
 				TargetAttributes = {
 					5C0AF5BE1E693C2600111035 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 696CWE7V3A;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -262,6 +298,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		05FB51502B651BEBA2F2246A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4075D1198ED0ECEB52B24816 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lacamomille/Pods-Lacamomille-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4AE83C56A9A66DBCAF4D0C5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lacamomille/Pods-Lacamomille-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5C0AF5BB1E693C2600111035 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -270,6 +354,7 @@
 				5C0AF6061E693F8E00111035 /* UIImage+GIF.m in Sources */,
 				5C0AF60F1E693FAB00111035 /* bViewController.swift in Sources */,
 				5C0AF6011E693F8E00111035 /* SDWebImageDownloader.m in Sources */,
+				5CA726E81E7291920072D6CC /* SwiftyJSON.swift in Sources */,
 				5C0AF6091E693F8E00111035 /* UIImageView+HighlightedWebCache.m in Sources */,
 				5C0AF6051E693F8E00111035 /* UIButton+WebCache.m in Sources */,
 				5C0AF60D1E693F9F00111035 /* aViewController.swift in Sources */,
@@ -288,6 +373,7 @@
 				5C0AF5FC1E693F8E00111035 /* MKAnnotationView+WebCache.m in Sources */,
 				5C0AF60B1E693F8E00111035 /* UIView+WebCacheOperation.m in Sources */,
 				5C0AF5FE1E693F8E00111035 /* SDImageCache.m in Sources */,
+				5CA726E91E7291920072D6CC /* SZHttpRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,24 +494,32 @@
 		};
 		5C0AF5D21E693C2600111035 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD2B9E2AE1064613A476B870 /* Pods-Lacamomille.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 696CWE7V3A;
 				INFOPLIST_FILE = Lacamomille/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.silicon.Lacamomille;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = Third/LaHeader.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		5C0AF5D31E693C2600111035 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F75E287BE806E127141DF0E /* Pods-Lacamomille.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 696CWE7V3A;
 				INFOPLIST_FILE = Lacamomille/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.silicon.Lacamomille;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = Third/LaHeader.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -449,6 +543,7 @@
 				5C0AF5D31E693C2600111035 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
